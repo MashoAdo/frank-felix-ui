@@ -12,17 +12,11 @@
 		"prettier:fix": "prettier --write ."
 	},
 	"dependencies": {
-		"@mantine/charts": "^7.6.2",
-		"@mantine/core": "^7.6.2",
-		"@mantine/dates": "^7.6.2",
-		"@mantine/hooks": "^7.6.2",
-		"@mantine/modals": "^7.6.2",
-		"@mantinex/mantine-logo": "^1.0.1",
-		"@tabler/icons-react": "^3.4.0",
 		"@tanstack/react-router": "^1.33.4",
-		"dayjs": "^1.11.10",
+		"axios": "^1.7.2",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"react-hot-toast": "^2.4.1",
 		"recharts": "2"
 	},
 	"devDependencies": {

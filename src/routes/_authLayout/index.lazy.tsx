@@ -1,15 +1,9 @@
-import { createLazyFileRoute,  } from "@tanstack/react-router";
-import { Box } from "@mantine/core";
+import { createLazyFileRoute } from "@tanstack/react-router";
 
 export const Route = createLazyFileRoute("/_authLayout/")({
 	component: Index,
 });
 
 export default function Index() {
-
-	return (
-		<Box>
-			Dashboard page
-		</Box>
-	);
+	return <div>Dashboard page</div>;
 }

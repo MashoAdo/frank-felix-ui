@@ -1,0 +1,17 @@
+export const appConfig = {
+	title: "Frank Felix Store Management.",
+	description: "",
+	keywords: "",
+	url: "",
+	image: "",
+    appName: "Frank Felix Store Management.",
+    appDescription: "",
+    appKeywords: "",
+    appUrl: "",
+    appImage: "",
+    appIcon: "",
+    appLogo: "",
+    appColor: "",
+    appTheme: "",
+    appThemeMode: "",
+};

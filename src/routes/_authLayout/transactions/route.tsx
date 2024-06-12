@@ -1,12 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/_authLayout/transactions")({
-	component: Transactions
+	component: Transactions,
 });
 
-
 export default function Transactions() {
-  return (
-	<div>Transactions</div>
-  )
+	return <div>Transactions</div>;
 }
